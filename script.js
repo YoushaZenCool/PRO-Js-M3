@@ -1,13 +1,13 @@
-var a = 5;
+var a = 4;
 var b = 6;
 var c = 6;
-var d = 4;
+var d = 6;
 var theNumbersMatch;
 var operatorMatch;
 
 
-// Playing around with logical operator
 
+// Playing around with logical operator
 /*
 if ( a === b ) {
     theNumbersMatch = true;
@@ -40,5 +40,6 @@ if (a == b) {
 } else {
   console.log ("No match")
 }
+
+(a == b || c == d) && ( (a == b) != (c == d) ) ? console.log("Match") : console.log("No match");
 */
-a == b ? console.log("Match") : console.log("No match");
