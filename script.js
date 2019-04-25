@@ -1,8 +1,29 @@
-//Pracite with lets, objects, bracket notations and closures
+//Pracite with objects, bracket notations and closures
 
+//Practicing with objects.
+
+
+
+/*
+//Practicing with lets
+function aIsBigger() {
+  var a = 2;
+  var b = 3;
+  var localVar = 4;
+  if (a<b) {
+    let localVar = "I'm different homie";
+    console.log("Nested localVar: " + localVar);
+  }
+  console.log("Im am loco-l: " + localVar);
+
+}
+
+aIsBigger();
+*/
 // Lets make it streamlined and clear. This is a tricky do this again.
 //Put the code below to make the function an anonymous function.
 //var findBiggestFraction = function
+/*
 function findBiggestFraction(a, b) {
   a>b ?
   result = ["firstFraction", a] : result = ["secondFraction", b]
@@ -19,7 +40,7 @@ findBiggestFraction(8/9, 11/12);
 console.log("First fraction result: " + firstFraction);
 console.log("Second fraction result: " + secondFraction);
 console.log("Fraction " + fractionResult[0] + " with a value of " + fractionResult[1] + " is the biggest!");
-
+*/
 // Adding Arguments
 /*
 function findBiggestFraction(firstFraction, secondFraction) {
