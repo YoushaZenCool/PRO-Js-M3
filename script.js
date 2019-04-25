@@ -1,4 +1,8 @@
+//Pracite with lets, objects, bracket notations and closures
+
 // Lets make it streamlined and clear. This is a tricky do this again.
+//Put the code below to make the function an anonymous function.
+//var findBiggestFraction = function
 function findBiggestFraction(a, b) {
   a>b ?
   result = ["firstFraction", a] : result = ["secondFraction", b]
