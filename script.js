@@ -1,9 +1,50 @@
-//Pracite with objects, bracket notations and closures
+//Praciting closures
+function doSomeMath(a, b) {
+  var a = 3;
+  var b = 4;
+
+  function multiply() {
+    var result = a * b;
+    return result;
+  }
+  return multiply;
+}
+var theResult = doSomeMath();
+console.log(theResult());
 
 //Practicing with objects.
+/*
+var course = new Object();
 
+var course = {
+  title: "JavaScript",
+  instructor: "Red Creep",
+  level: 1,
+  published: true,
+  views: 0,
+  updateViews: function () {
+    return ++course.views;
+  }
+}
+console.log(course);
 
-
+function Course(a, b, c, d, e, f) {
+  this.a = a;
+  this.b = b;
+  this.c = c;
+  this.d = d;
+  this.e = e;
+  this.f = f;
+  this.updateF = function (){
+    return ++this.f;
+  };
+}
+var courses = [ new Course(1, 2, 3, 4, 5, 6), new Course(1, 2, 3, 4, 5, 6)]
+*/
+//var course02 = new Course(1, 2, 3, 4, 5, 6);
+// console.log(course02);
+//console.log(course.updateViews);
+// console.log(courses);
 /*
 //Practicing with lets
 function aIsBigger() {
